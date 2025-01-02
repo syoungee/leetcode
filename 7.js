@@ -2,6 +2,7 @@
  * @param {number} x
  * @return {number}
  */
+// 시간복잡도 O(N), 공간복잡도 O(N)
 var reverse = function (x) {
   // 32비트 정수의 범위
   const MIN = -Math.pow(2, 31); // -2147483648
